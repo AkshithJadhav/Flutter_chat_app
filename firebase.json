@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chatapp-78086",
+          "appId": "1:477216940:android:38d7ccc7b17b405b22df09",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chatapp-78086",
+          "configurations": {
+            "android": "1:477216940:android:38d7ccc7b17b405b22df09",
+            "ios": "1:477216940:ios:5a98e8ea9df2ac7622df09",
+            "web": "1:477216940:web:7872e973b86fdb5422df09"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "site": "gossiapp",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
